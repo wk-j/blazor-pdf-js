@@ -17,6 +17,15 @@ window.webviewerFunctions = {
             // adding an event listener for when the page number has changed
             Core.documentViewer.addEventListener('pageNumberUpdated', (pageNumber) => {
                 console.log(`Page number is: ${pageNumber}`);
+
+                var totalPage = Core.documentViewer.getPageCount();
+                if (totalPage != pageNumber) {
+                    var el = document.getElementById("go")
+                    el.setAttribute("disabled", "");
+                } else {
+                    var el = document.getElementById("go")
+                    el.removeAttribute("disabled");
+                }
             });
 
             // adds a button to the header that on click sets the page to the next page
