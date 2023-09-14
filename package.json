@@ -1,0 +1,10 @@
+{
+    "scripts": {
+        "postinstall": "node tools/copy-express.js && node tools/copy-express-viewer.js"
+    },
+    "dependencies": {
+        "@pdftron/pdfjs-express": "^8.7.4",
+        "@pdftron/pdfjs-express-viewer": "^8.7.4",
+        "fs-extra": "^11.1.1"
+    }
+}

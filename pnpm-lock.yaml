@@ -1,0 +1,52 @@
+lockfileVersion: '6.0'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
+dependencies:
+  '@pdftron/pdfjs-express':
+    specifier: ^8.7.4
+    version: 8.7.4
+  '@pdftron/pdfjs-express-viewer':
+    specifier: ^8.7.4
+    version: 8.7.4
+  fs-extra:
+    specifier: ^11.1.1
+    version: 11.1.1
+
+packages:
+
+  /@pdftron/pdfjs-express-viewer@8.7.4:
+    resolution: {integrity: sha512-k1iQTrLWKHyY1CK3Axd918qmyNeFtPMrVd4HQd3O3q/XKlIb6Daf/XSeqt5DEf1gmif6aUW4C5Shyt0MO81gnA==}
+    dev: false
+
+  /@pdftron/pdfjs-express@8.7.4:
+    resolution: {integrity: sha512-zYZp/en+sR3PkhkwXquliHGee0xNCGv8J6BHCov2y6vmxm+O6oDlStXJxKTwpdL+Bo7ip2yMOW9cSHM+0lUisQ==}
+    dev: false
+
+  /fs-extra@11.1.1:
+    resolution: {integrity: sha512-MGIE4HOvQCeUCzmlHs0vXpih4ysz4wg9qiSAu6cd42lVwPbTM1TjV7RusoyQqMmk/95gdQZX72u+YW+c3eEpFQ==}
+    engines: {node: '>=14.14'}
+    dependencies:
+      graceful-fs: 4.2.11
+      jsonfile: 6.1.0
+      universalify: 2.0.0
+    dev: false
+
+  /graceful-fs@4.2.11:
+    resolution: {integrity: sha512-RbJ5/jmFcNNCcDV5o9eTnBLJ/HszWV0P73bc+Ff4nS/rJj+YaS6IGyiOL0VoBYX+l1Wrl3k63h/KrH+nhJ0XvQ==}
+    dev: false
+
+  /jsonfile@6.1.0:
+    resolution: {integrity: sha512-5dgndWOriYSm5cnYaJNhalLNDKOqFwyDB/rr1E9ZsGciGvKPs8R2xYGCacuf3z6K1YKDz182fd+fY3cn3pMqXQ==}
+    dependencies:
+      universalify: 2.0.0
+    optionalDependencies:
+      graceful-fs: 4.2.11
+    dev: false
+
+  /universalify@2.0.0:
+    resolution: {integrity: sha512-hAZsKq7Yy11Zu1DE0OzWjw7nnLZmJZYTDZZyEFHZdUhV8FkH5MCfoU1XMaxXovpyW5nq5scPqq0ZDP9Zyl04oQ==}
+    engines: {node: '>= 10.0.0'}
+    dev: false
