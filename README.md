@@ -2,7 +2,7 @@
 
 - .NET 7.0
 - PDF.js express
-- https://pdfjs.express/documentation/get-started/blazor/new-project
+- https://pdfjs.express/documentation/get-started-viewer/blazor/new-project
 
 # Install
 
